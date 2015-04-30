@@ -39,6 +39,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'Master Detail-SubDetail'
     TabOrder = 2
+    OnClick = Button3Click
   end
   object frxReport1: TfrxReport
     Version = '5.1.5'
@@ -80,7 +81,7 @@ object Form1: TForm1
         RowCount = 0
         object Memo1: TfrxMemoView
           Left = 60.472480000000000000
-          Width = 170.078850000000000000
+          Width = 287.244280000000000000
           Height = 18.897650000000000000
           Memo.UTF8W = (
             '[PersonDataset."Name"]')
@@ -142,7 +143,7 @@ object Form1: TForm1
         RowCount = 0
         object Memo2: TfrxMemoView
           Left = 79.370130000000000000
-          Width = 188.976500000000000000
+          Width = 287.244280000000000000
           Height = 18.897650000000000000
           Memo.UTF8W = (
             '[HobbyDataset."Description"]')
@@ -190,5 +191,99 @@ object Form1: TForm1
     Datasets = <>
     Variables = <>
     Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 210.000000000000000000
+      PaperHeight = 297.000000000000000000
+      PaperSize = 9
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+      object MasterData1: TfrxMasterData
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 18.897650000000000000
+        Width = 718.110700000000000000
+        RowCount = 0
+        object Memo1: TfrxMemoView
+          Left = 30.236240000000000000
+          Width = 226.771800000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8W = (
+            '[PersonDataset."Name"]')
+        end
+      end
+      object DetailData1: TfrxDetailData
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 109.606370000000000000
+        Width = 718.110700000000000000
+        RowCount = 0
+        object Memo3: TfrxMemoView
+          Left = 71.811070000000000000
+          Width = 272.126160000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8W = (
+            '[HobbyDataset."Description"]')
+        end
+      end
+      object SubdetailData1: TfrxSubdetailData
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 200.315090000000000000
+        Width = 718.110700000000000000
+        RowCount = 0
+        object Memo5: TfrxMemoView
+          Left = 124.724490000000000000
+          Top = 3.779530000000000000
+          Width = 196.535560000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8W = (
+            '[SomethingDataset."SomeProperty"]')
+        end
+      end
+      object Header1: TfrxHeader
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 64.252010000000000000
+        Width = 718.110700000000000000
+        object Memo2: TfrxMemoView
+          Left = 49.133890000000000000
+          Width = 94.488250000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          Memo.UTF8W = (
+            'Hobbies')
+          ParentFont = False
+        end
+      end
+      object Header2: TfrxHeader
+        FillType = ftBrush
+        Height = 22.677180000000000000
+        Top = 154.960730000000000000
+        Width = 718.110700000000000000
+        object Memo4: TfrxMemoView
+          Left = 102.047310000000000000
+          Width = 94.488250000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          Memo.UTF8W = (
+            'Sub Detail Stuff')
+          ParentFont = False
+        end
+      end
+    end
   end
 end

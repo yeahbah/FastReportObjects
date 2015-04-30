@@ -43,7 +43,7 @@ type
     constructor Create(aOwner: TComponent; const aDatasetName: string); reintroduce; overload;
     constructor Create(aOwner: TComponent; const aDatasetName: string; const aData: TList<T>); reintroduce; overload;
     procedure AttachDetailDataset(aDetailDataset: IFastReportUserDataset;
-      aDetailDataInitializeProc: TProc<T>);
+      aOnGetDetailDataProc: TProc<T>);
     property Data: TList<T> read fData write fData;
   end;
 
@@ -52,9 +52,9 @@ implementation
 { TFastReportObjects<T> }
 
 procedure TFastReportObjects<T>.AttachDetailDataset(
-  aDetailDataset: IFastReportUserDataset; aDetailDataInitializeProc: TProc<T>);
+  aDetailDataset: IFastReportUserDataset; aOnGetDetailDataProc: TProc<T>);
 begin
-  fDetailDatasets.Add(aDetailDataset, aDetailDataInitializeProc);
+  fDetailDatasets.Add(aDetailDataset, aOnGetDetailDataProc);
 end;
 
 constructor TFastReportObjects<T>.Create(aOwner: TComponent;
