@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2015/04/30 09:44:45.572,=C:\Users\arnolddiaz\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/04/30 09:45:29.706,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit2.pas=C:\Users\arnolddiaz\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/04/30 09:45:29.706,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit2.dfm=C:\Users\arnolddiaz\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2015/04/30 09:45:44.020,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Spring4DMarshmallowSample.dproj=C:\Users\arnolddiaz\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2015/04/30 09:52:00.394,=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit3.pas</Transaction>
+    <Transaction>2015/04/30 09:52:06.940,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\StockModel.pas=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit3.pas</Transaction>
+    <Transaction>2015/04/30 09:53:02.386,=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit3.pas</Transaction>
+    <Transaction>2015/04/30 09:55:35.226,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\MyDataset.pas=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\Unit3.pas</Transaction>
+    <Transaction>2015/04/30 09:55:42.996,C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\MyDatabase.pas=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Samples\MyDataset.pas</Transaction>
+    <Transaction>2015/04/30 10:00:06.797,=C:\Users\arnolddiaz\Documents\Projects\FastReportObjectsGit\Yeahbah.FastReportObjects.pas</Transaction>
+  </Transactions>
+</BorlandProject>
