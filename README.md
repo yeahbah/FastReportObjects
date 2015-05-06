@@ -30,10 +30,10 @@ var
   s: IList<TStockModel>;
   stockDataset: TFastReportObjects<TStockmodel>;
 begin
-  stocks := TList.Create;
+  stocks := TList<TStockModel>.Create;
   db := TMyDatabase.Create;
   try
-    stocks.AddRange(db.Session.FindAll.ToArray);
+    stocks.AddRange(db.Session.FindAll<TStockModel>.ToArray);
     stockDataset := TFastReportObjects.Create(self, 'Stocks', stocks);
     try
 
